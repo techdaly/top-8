@@ -1,0 +1,75 @@
+/**,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}*/
+
+* {
+  font-family: sans-serif;
+}
+
+.friend-header{
+  width: 800px;
+  background-color: #ffcc95;
+  color: #d17842;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.header-title{
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.friend-count{
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+img{
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.friend-name{
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.online-status{
+  color: green;
+  font-family: monospace;
+  font-size: 12px;
+  text-align: center;
+}
+
+.friend-tile{
+  float: left;
+  width: 200px;
+}
+
+.friend-row-1 {
+  width: 800px;
+}
+
+.friend-row-2 {
+  width: 800px;
+}
+
+.friend-view {
+  font-weight: bold;
+  color: red;
+  float: right;
+  width: 800px;
+  margin-right: -100px;
+}
